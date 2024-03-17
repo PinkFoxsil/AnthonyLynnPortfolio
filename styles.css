@@ -1,21 +1,25 @@
-body {
-    margin: 0;
+* {
+    color: rgb(221, 221, 221);
     font-family: 'Raleway', sans-serif;
+  }
+  
+  body {
+    margin: 0;
     background-color: rgb(27, 25, 30)
-}
-
-.header-padding {
-    padding-top: 7500px;
-}
-
-#border-vert {
+  }
+  
+  .header-padding {
+    padding-top: 90px;
+  }
+  
+  #border-vert {
     margin: auto 0;
     height: 80%;
     width: 2px;
     background-color: rgb(33, 33, 33);
-}
-
-nav {
+  }
+  
+  nav {
     background-color: rgb(12, 10, 15);
     width: 100%;
     min-width: 650px;
@@ -24,60 +28,56 @@ nav {
     justify-content: space-between;
     position: fixed;
     box-shadow: 0 0 10px -1px rgb(12, 10, 15);
-}
-
-.contacts {
+  }
+  
+  .contacts {
     height: 100%;
     padding: 8px 0 0 20px;
-}
-
-.contacts-name {
+  }
+  
+  .contacts-name {
     margin: 0;
-    color: rgb(221, 221, 221);
     font-size: 42px;
-}
-
-.contacts-email {
+  }
+  
+  .contacts-email {
     margin-top: 5px;
     color: grey;
     font-size: 15px;
-}
-
-.contacts-email > a {
+  }
+  
+  .contacts-email > a {
     text-decoration: none;
     color: inherit;
-}
-
-.link-buttons {
+  }
+  
+  .link-buttons {
     display: flex;
     list-style: none;
     margin: 0;
-}
-
-.resumebtn {
-    color: rgb(221, 221, 221);
+  }
+  
+  .resumebtn {
     display: flex;
     font-size: 20px;
     font-weight: 1000;
-}
-
-.resumebtn > a {
+  }
+  
+  .resumebtn > a {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0 20px;
-    color: rgb(221, 221, 221);
     text-decoration: none;
-}
-
-.resumebtn > a:hover {
+  }
+  
+  .resumebtn > a:hover {
     color: rgb(12, 10, 15);
     background-color: rgb(206, 180, 95);
-}
-
-.portfoliobtn {
-    color: rgb(221, 221, 221);
+  }
+  
+  .portfoliobtn {
     font-size: 20px;
     font-weight: 1000;
     border: none;
@@ -85,36 +85,54 @@ nav {
     padding: 0 20px;
     height: 90px;
     background-color: rgb(12, 10, 15);
-}
-
-.portfoliobtn:hover {
-    color: inherit;
+  }
+  
+  .portfoliobtn:hover {
+    color: rgb(12, 10, 15);
     background-color: rgb(206, 180, 95);
-}
-
-.portfolio-content {
+  }
+  
+  .portfolio-content {
     display: none;
     width: 100%;
     height: 100%;
     z-index: 1;
-}
-
-.portfolio-content > a {
+  }
+  
+  .portfolio-content > a {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
-    color: rgb(221, 221, 221);
     text-decoration: none;
     background-color: rgb(12, 10, 15);
-}
-
-.portfolio-content > a:hover {
+  }
+  
+  .portfolio-content > a:hover {
     color: rgb(12, 10, 15);
     background-color: rgb(206, 180, 95);
-}
-
-.dropdown:hover .portfolio-content {
+  }
+  
+  .dropdown:hover .portfolio-content {
     display: block;
-}
+  }
+  
+  .video-container {
+    display: block;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .video {
+    display: inline-block;
+    
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .description {
+    display: inline-block;
+    padding: 20px;
+  }
