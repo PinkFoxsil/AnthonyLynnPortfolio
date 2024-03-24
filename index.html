@@ -7,7 +7,7 @@
     <title>Anthony Lynn Portfolio</title>
   </head>
   <body>
-    <nav>
+    <header>
 
       <!-- Contacts -->
       <section class="contacts">
@@ -29,84 +29,81 @@
       </section>
 
       <!-- Buttons -->
-      <ul class="link-buttons">
-        <div id="border-vert"></div>
-        <li class="resumebtn">
-          <a href="#">RESUME</a>
-        </li>
-        <div id="border-vert"></div>
-        <li>
-          <div class="dropdown">
-            <button class="portfoliobtn">PORTFOLIO</button>
-            <div class="portfolio-content">
-              <a href="./index.html">Game Design</a>
-              <!--<a href="#">Software Design</a>-->
-              <!--<a href="#">Roblox Studio</a>-->
-            </div>
-          <div>
-        </li>
-      </ul>
+      <nav>
+        <div class="border-vert"></div>
+        <a href="#" class="nav-btn"><button>RESUME</button></a>
+        <div class="border-vert"></div>
+        <div class="dropdown">
+          <a href="./index.html" class="nav-btn"><button>PORTFOLIO</button></a>
+          <div class="dropdown-content">
+            <a href="./index.html"><button>Game Design</button></a>
+            <!--<a href="#">Software Design</a>-->
+            <!--<a href="#">Roblox Studio</a>-->
+          </div>
+        <div>
+      </nav>
       
-    </nav>
+    </header>
 
     <main>
       <div class="header-padding"></div>
 
-      <!-- Tower -->
-      <div class="table">
-        <a class="content" href="./tower.html">
-          <img src="img/Level3Screenshot_2.png">
-          <div class="right-content">
+      <ul>
+        <!-- Tower -->
+        <li>
+          <a href="./tower.html"><img src="img/Level3Screenshot_2.png"></a>
+          <div class="border-vert color-1"></div>
+          <section class="right-content">
             <div class="description">
-              <h1 class="align-left">
+              <h1>
                 Tower Level
               </h1>
               <p class="align-left">
                 Unreal level made for level design class. Focused on lighting and verticality.
               </p>
             </div>
-            <div class="clickme-btn">
-              Click Me
-            </div>
-          </div>
-        </a>
+            <a href="./tower.html" class="clickme-btn"><button>Click Me</button></a>
+          </section>
+        </li>
 
         <!-- 2D Level -->
-        <a class="content" href="./tower.html">
-          <img src="img/Level3Screenshot_2.png">
-          <div class="right-content">
+        <li>
+          <a href="./tower.html"><img src="img/GreenLevelScreenshot_3.png"></a>
+          <div class="border-vert color-1"></div>
+          <section class="right-content">
             <div class="description">
-              <h1 class="align-left">
+              <h1>
                 Forest Green Level
               </h1>
               <p class="align-left">
-                Focusing on artwork, ambience, and more importnatly 2D level design, I practice player metrics and refining gameplay mechanics.
+                Focusing on artwork, ambience, and more importnatly 2D level design; I put into practice player metrics and refining gameplay mechanics.
               </p>
             </div>
-            <div class="clickme-btn">
-              Click Me
-            </div>
-          </div>
-        </a>
-
+            <a href="./tower.html" class="clickme-btn"><button>Click Me</button></a>
+          </section>
+        </li>
+        
         <!-- Death March GDD -->
-        <a class="content" href="./tower.html">
-          <img src="img/Level3Screenshot_2.png">
-          <div class="right-content">
+        <li>
+          <a href="./tower.html"><img src="img/GDD_Document.png"></a>
+          <div class="border-vert color-1"></div>
+          <section class="right-content">
             <div class="description">
-              <h1 class="align-left">
+              <h1>
                 Death March GDD
               </h1>
               <p class="align-left">
                 A GDD focusing on a game called Death March, a rpg apocoliptic game.
               </p>
             </div>
-            <div class="clickme-btn">
-              Click Me
-            </div>
-          </div>
-        </a>
-      </div>
+            <a href="./tower.html" class="clickme-btn"><button>Click Me</button></a>
+          </section>
+        </li>
+      </ul>
     </main>
+
+    <footer>
+
+    </footer>
   </body>
 </html>
