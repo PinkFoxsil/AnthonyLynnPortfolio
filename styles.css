@@ -42,7 +42,7 @@ li {
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
-  margin: 0.5vw 1vw 0.5vw 1vw;
+  margin: 1vw 1.5vw;
   padding: 0.75vw;
   box-shadow: 0 0 10px 0 black;
   background-color: var(--color-grey);
@@ -50,7 +50,7 @@ li {
 }
 
 li:hover {
-  margin: 0.25vw 0.5vw 0.25vw 0.5vw;
+  margin: 0.25vw 0.5vw;
 }
 
 li > a {
@@ -98,6 +98,13 @@ a {
   background-color: var(--color-grey);
 }
 
+.border-horizontal {
+  margin: auto;
+  width: 80%;
+  height: 2px;
+  background-color: var(--color-grey);
+}
+
 .color-1 {
   margin: auto;
   background-color: var(--color-base);
@@ -128,7 +135,7 @@ a {
 }
 
 .page-title {
-  color: var(--color-highlight);
+  color: var(--color-light);
   margin: auto 0;
   padding-left: 60px;
   font-size: 3vw;
@@ -176,12 +183,19 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
-  padding: 20px;
+  gap: 1vw;
+  margin: 2vw
 }
 
 .image-container > img {
   width: 45%;
+}
+
+.image-container > p {
+  width: 50%;
+  font-size: 2vw;
+  margin: auto;
+  text-align: left;
 }
 
 .right-content {
