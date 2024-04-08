@@ -39,7 +39,6 @@ ul {
 }
 
 li {
-  border-radius: 15px;
   display: flex;
   justify-content: space-between;
   margin: 1vw 1.5vw;
@@ -60,7 +59,6 @@ li > a {
 img {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
 }
 
 header {
@@ -84,7 +82,6 @@ nav {
 iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
-  border-radius: 10px;
 }
 
 a {
@@ -220,7 +217,7 @@ a {
 }
 
 .clickme-btn {
-  width: 20%;
+  width: 25%;
   margin: 0 auto;
 }
 
@@ -229,17 +226,21 @@ a {
   font-weight: 700;
   background-color: var(--color-grey);
   border: 2px solid var(--color-light);
-  border-radius: 2vw;
 }
 
 .clickme-btn > button:hover {
   border: 2px solid var(--color-highlight);
   background-color: var(--color-highlight);
-  border-radius: 2vw;
 }
 
 .download {
   padding: 1vw 0 0 0;
   width: 20%;
   margin: auto;
+}
+
+.pdf {
+  margin: auto;
+  padding: 0;
+  width: 90%;
 }
