@@ -75,7 +75,7 @@ header {
   background-color: var(--color-base);
   box-sizing: border-box;
   width: 100%;
-  min-width: 850px;
+  min-width: 1000px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -110,7 +110,7 @@ a {
 .border-horizontal {
   margin: auto;
   width: 60%;
-  height: 3px;
+  height: 2px;
   background-color: var(--color-light);
 }
   
@@ -125,7 +125,7 @@ a {
   
 .contacts-info {
   color: var(--color-highlight);
-  font-size: 14.8px;
+  font-size: 16.1px;
 }
   
 .contacts-info > a {
@@ -165,7 +165,7 @@ a {
 .dropdown-content > a > button {
   background-color: var(--color-highlight);
   color: var(--color-dark);
-  font-size: 1.2vw;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -234,7 +234,7 @@ a {
   height: 50%;
   padding: auto;
   font-weight: 1;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .clickme-btn {
@@ -257,7 +257,9 @@ a {
 
 .download {
   padding: 1vw 0 0 0;
-  width: 20%;
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
   margin: auto;
 }
 
